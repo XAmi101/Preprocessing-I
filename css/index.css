@@ -141,6 +141,11 @@ body {
   font-size: 1.6rem;
   line-height: 20px;
 }
+.flexi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 html {
   background-color: #939393;
   font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
@@ -180,9 +185,9 @@ p {
 }
 #intro h1 {
   display: flex;
-  font-size: 6rem;
-  justify-content: center;
   flex-direction: row;
+  justify-content: center;
+  font-size: 6rem;
   padding-bottom: 2rem;
 }
 #intro p {
@@ -228,5 +233,6 @@ button {
 footer {
   background-color: white;
   padding: 7rem 0;
-  padding-right: 5rem;
+  text-align: center;
+  hieght: 90rem;
 }
