@@ -147,6 +147,7 @@ html {
 }
 #wrapper {
   padding: 3rem;
+  padding-bottom: 15rem;
 }
 nav {
   background-color: white;
@@ -175,7 +176,7 @@ p {
   line-height: 20px;
 }
 #intro {
-  padding: 7rem 0;
+  padding: 6rem 0rem 4rem 0rem;
 }
 #intro h1 {
   display: flex;
@@ -211,12 +212,21 @@ button {
 }
 .main {
   background-color: white;
-  padding: 2rem 2rem;
+  padding: 3rem 3rem;
   margin: 0 2rem;
   width: 30rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
 }
 .main p {
   font-size: 1.5rem;
   font-weight: 200;
+  padding: 1rem 0;
+}
+footer {
+  background-color: white;
+  padding: 7rem 0;
+  padding-right: 5rem;
 }
