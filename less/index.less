@@ -56,6 +56,7 @@ table {
 html, body {
     height: 100%;
 		font-size: 62.5%;
+
 }
 
 /* this is my code */
@@ -72,6 +73,17 @@ html, body {
 	justify-content: center;
 }
 
+.shadow{
+	border: 1px solid;
+ padding: 10px;
+ box-shadow: 5px 10px #888888;
+}
+.mobile{
+	@media(max-width:510px) {
+	align-content: center;
+	width: 100%;
+}
+
 html{
    background-color: #939393;
 	 font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
@@ -80,6 +92,7 @@ html{
 #wrapper{
 	padding: 3rem;
 	padding-bottom: 15rem;
+	.mobile();
 }
 nav{
     background-color: white;
@@ -88,7 +101,7 @@ nav{
     font-size: 1.3rem;
     display: flex;
     justify-content: flex-end;
-
+		.mobile();
 
 		a{
 			padding: 0 4rem;
@@ -128,6 +141,7 @@ h2{
 				font-weight: bold;
 				}
 			}
+			.mobile();
 	}
 
 button {
@@ -146,6 +160,12 @@ button {
 #parts{
 	.flexi();
 	margin: 0 3rem;
+	// .mobile();
+	@media@media(max-width:510px) {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
 }
 
 .main{
@@ -158,6 +178,14 @@ button {
 	display: flex;
 	align-items: center;
 	border-radius: 25px;
+	.shadow();
+.mobile();
+@media@media(max-width:510px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
 
 	p{
 		font-size: 1.5rem;
@@ -167,14 +195,31 @@ button {
 }
 
 footer{
-
+display: flex;
+justify-content: center;
 	background-color: white;
 	padding: 7rem 0;
 	text-align: center;
-  // hieght: 90rem;
+.mobile();
 
-	section{
 
+	div.cont{
+		width: 50rem;
+		 hieght: 90rem;
+		background-color: #f2f2f2;
+		padding: 20px;
+		border-radius: 14px;
+		text-align: center;
+		margin: 5rem 0;
+		.shadow();
+				form{
+					padding: 1.5rem;
+					margin-bottom: 2rem;
+				}
+				h3{
+					font-size: 2rem;
+					padding: 1.4rem 0;
+				}
 	}
 
 }

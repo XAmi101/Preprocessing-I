@@ -146,6 +146,11 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+.shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
 html {
   background-color: #939393;
   font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
@@ -224,6 +229,9 @@ button {
   display: flex;
   align-items: center;
   border-radius: 25px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 .main p {
   font-size: 1.5rem;
@@ -231,7 +239,32 @@ button {
   padding: 1rem 0;
 }
 footer {
+  display: flex;
+  justify-content: center;
   background-color: white;
   padding: 7rem 0;
   text-align: center;
+}
+footer section {
+  height: 40rem;
+}
+footer div.cont {
+  width: 50rem;
+  hieght: 90rem;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  margin: 5rem 0;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+footer div.cont form {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+footer div.cont h3 {
+  font-size: 2rem;
+  padding: 1.4rem 0;
 }
